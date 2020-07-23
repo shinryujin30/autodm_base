@@ -19,7 +19,7 @@ def start():
                     # prikitiw is the keyword
                     # if you want to turn off the case sensitive like: priktiw, Prikitiw, pRiKiTiw
                     # just use lower(message) and check it, but please remove the replace function line
-                    if "/moots/" or "/Moots/" in message:
+                    if "-nbt" in message:
 
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
